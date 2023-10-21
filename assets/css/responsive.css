@@ -1,0 +1,249 @@
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .nav-link {
+    margin-left: 70px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 5px 50px;
+    transition: 0.4s;
+  }
+
+  .nav-link:hover {
+    border-color: 2px solid var(--heading_color) !important;
+    border-radius: 10px;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px to 1399.98px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .nav-link {
+    margin-left: 70px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 5px 50px;
+    transition: 0.4s;
+  }
+
+  .nav-link:hover {
+    border-color: 2px solid var(--heading_color) !important;
+    border-radius: 10px;
+  }
+}
+
+/* Large devices (desktops, 992px to 1199.98px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .nav-link {
+    margin-left: 70px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 5px 50px;
+    transition: 0.4s;
+  }
+
+  .nav-link:hover {
+    border-color: 2px solid var(--heading_color) !important;
+    border-radius: 10px;
+  }
+}
+
+/* Medium devices (tablets, 768px to 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .menu_part {
+    padding-top: 40px;
+  }
+
+  .carousel-inner {
+    padding: 25px 0px 100px;
+  }
+
+  .slider_content {
+    padding-top: 40px;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 40px;
+  }
+
+  .feature_part {
+    padding: 80px 0px 100px;
+  }
+
+  .feature_con_main {
+    padding-top: 70px;
+  }
+
+  .subcrible_part {
+    padding-top: 90px;
+  }
+
+  .subcrible_con_form input {
+    width: 50%;
+  }
+
+  .footer_part {
+    padding: 60px 0px 70px;
+  }
+
+  .fo_so_link {
+    padding: 0px 0px 60px;
+  }
+}
+
+/* Small devices (landscape phones, 576px to 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  br {
+    display: none;
+  }
+
+  .menu_part {
+    padding-top: 40px;
+  }
+
+  .carousel-inner {
+    padding: 25px 0px 90px;
+  }
+
+  .slider_content {
+    padding-top: 0px;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 30px;
+  }
+
+  .slider_content h1 {
+    line-height: 38px;
+  }
+
+  .slider_content h3 {
+    padding: 10px 0px;
+    font-size: 18px;
+  }
+
+
+  .slider_content p {
+    font-size: 15px;
+    text-align: justify;
+    padding-bottom: 0px;
+  }
+
+
+  .slider_img {
+    padding-right: 0px;
+  }
+
+  .feature_part {
+    padding: 60px 0px 70px;
+  }
+
+  .feature_con_main {
+    padding-top: 50px;
+  }
+
+  .subcrible_part {
+    padding-top: 70px;
+  }
+
+  .subcrible_con_form input {
+    width: 60%;
+  }
+
+  .footer_part {
+    padding: 50px 0px 60px;
+  }
+
+  .fo_so_link {
+    padding: 0px 0px 50px;
+  }
+}
+
+/* x-small devices (portrait phones, 320px to 576px) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+  br {
+    display: none;
+  }
+
+  .menu_part {
+    padding-top: 25px;
+  }
+
+  .carousel-inner {
+    padding: 20px 0px 70px;
+  }
+
+  .slider_content {
+    padding-top: 0px;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 25px;
+  }
+
+  .slider_content h1 {
+    line-height: 38px;
+  }
+
+  .slider_content h3 {
+    padding: 10px 0px;
+    font-size: 18px;
+  }
+
+  .slider_content p {
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+
+  .carousel-item ul {
+    padding-top: 0px;
+  }
+
+  .slider_img {
+    padding-right: 0px;
+  }
+
+  .feature_part {
+    padding: 50px 0px 60px;
+  }
+
+  .feature_con_main {
+    padding-top: 40px;
+  }
+
+  .subcrible_part {
+    padding-top: 50px;
+  }
+
+  .subcrible_con {
+    margin-top: 30px;
+  }
+
+  .subcrible_con_form input {
+    width: 80%;
+    padding: 10px 12px;
+    border: 1px;
+  }
+
+  .subcrible_con_form input:focus {
+    border: 1px solid var(--Primary_color);
+    outline: 1px solid var(--Primary_color);
+  }
+
+  .input_group .btn {
+    padding: 10px;
+    width: 80%;
+    margin: 20px 0px 0px;
+  }
+
+  .subcrible_con_main {
+    margin-top: 30px;
+  }
+
+  .footer_part {
+    padding: 40px 0px 50px;
+  }
+
+  .fo_so_link {
+    padding: 0px 0px 40px;
+  }
+}

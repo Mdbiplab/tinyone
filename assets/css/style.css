@@ -1,0 +1,271 @@
+/* Google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+/* Golobal CSS Start */
+:root {
+  --Primary_color: #fcdb00;
+  --secondary_color: #898989;
+  --bgcolor: #000000;
+  --text_color: #313841;
+  --heading_color: #010101;
+  --pt: 0px;
+  --pb: 0px;
+  --px: 0px 0px;
+  --py: 0px 0px;
+  --pa: 0px;
+  --mt: 0px;
+  --mb: 0px;
+  --mx: 0px 0px;
+  --my: 0px 0px;
+  --ma: 0px;
+}
+
+* {
+  font-family: 'PT Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text_color);
+}
+
+ul,
+p {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  line-height: 25px;
+}
+
+a {
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  color: var(--heading_color) !important;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--heading_color);
+  text-transform: uppercase;
+  line-height: 28px;
+}
+
+/* Custome Class for Padding */
+.pt {
+  padding-top: var(--pt);
+}
+
+.pb {
+  padding-top: var(--pb);
+}
+
+.px {
+  padding-top: var(--px);
+}
+
+.py {
+  padding-top: var(--py);
+}
+
+.pa {
+  padding-top: var(--pa);
+}
+
+
+/* Custome Class for Margin */
+.mt {
+  padding-top: var(--mt);
+}
+
+.mb {
+  padding-top: var(--mb);
+}
+
+.mx {
+  padding-top: var(--mx);
+}
+
+.my {
+  padding-top: var(--my);
+}
+
+.ma {
+  padding-top: var(--ma);
+}
+
+/* Global Heading */
+.g_heading h2 {
+  text-transform: none;
+}
+
+/* Golobal CSS End */
+
+/* Menu Part Start */
+.menu_part {
+  background: var(--Primary_color);
+}
+
+/* Menu Part End */
+
+/* Slider Part Start */
+.slider_part {
+  background: var(--Primary_color);
+}
+
+.slider_content h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--text_color);
+  text-transform: none;
+}
+
+.slider_content p {
+  color: #555555;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 18px;
+  height: 18px;
+  background: #feed80;
+  border-radius: 50%;
+  border: none;
+}
+
+.carousel-indicators .active {
+  background: #ffff;
+}
+
+/* Slider Part End */
+
+/* Feature Part Start */
+.feature_content {
+  padding: 0px 15px 0px;
+}
+
+.feature_con_icon a i {
+  font-size: 50px;
+}
+
+.feature_con_text h4 {
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.feature_con_text p {
+  color: var(--secondary_color);
+  padding-top: 10px;
+}
+
+/* Feature Part End */
+
+/* Subcrible Part Start */
+.subcrible_part {
+  background: var(--heading_color);
+}
+
+.subcrible_heading h2 {
+  color: var(--Primary_color);
+}
+
+.subcrible_heading p {
+  color: var(--secondary_color);
+}
+
+.subcrible_con_form input {
+  padding: 13px 18px;
+  width: 35%;
+  background: #ffff;
+  border: 2px solid #ffff;
+  border-radius: 5px;
+}
+
+.subcrible_con_form input:focus {
+  border: 2px solid var(--Primary_color);
+  outline: 2px solid var(--Primary_color);
+  border-radius: 5px;
+}
+
+.subcrible_con_form input::placeholder {
+  color: var(--secondary_color);
+}
+
+.input_group .btn {
+  background: var(--Primary_color);
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  border: none;
+  padding: 13px 30px;
+  border: 2px solid var(--Primary_color);
+  transition: 0.4s;
+}
+
+.input_group .btn:hover {
+  background: transparent;
+  color: var(--Primary_color) !important;
+}
+
+/* Subcrible Part End */
+
+/* Footer Part Start */
+.footer_part {
+  background: var(--heading_color);
+}
+
+.fo_so_icon ul li {
+  margin-left: 32px;
+}
+
+.fo_so_icon ul li:nth-child(1) {
+  margin-left: 0px;
+}
+
+.fo_so_icon ul li a i {
+  color: var(--heading_color);
+  font-size: 30px;
+  text-align: center;
+  line-height: 38px;
+  background: var(--Primary_color);
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--heading_color);
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+.fo_so_icon ul li a i:hover {
+  color: var(--Primary_color) !important;
+  background: transparent;
+  border: 1px solid var(--Primary_color);
+
+}
+
+.footer_content p,
+.footer_content a {
+  color: #ffff !important;
+  font-size: 16px !important;
+  transition: 0.4s;
+}
+
+.footer_content a:hover {
+  color: var(--Primary_color) !important;
+}
+
+.footer_content ul li a {
+  margin-bottom: 5px;
+}
+
+/* Footer Part End */
